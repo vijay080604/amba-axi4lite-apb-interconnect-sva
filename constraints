@@ -1,0 +1,2 @@
+# 200 MHz System Clock (5.000 ns period) for Xilinx Artix-7 (xc7a35tifgg484-1L)
+create_clock -period 5.000 -name aclk -waveform {0.000 2.500} [get_ports aclk]
